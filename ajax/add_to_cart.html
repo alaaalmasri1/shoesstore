@@ -1,0 +1,46 @@
+<br>
+     <script src="js/toastr.html"></script>  
+    
+    
+<script type="text/javascript">
+     
+
+ 
+   toastr.clear();
+
+toastr.options = {
+  "closeButton": false,
+  "debug": false,
+  "newestOnTop": false,
+  "progressBar": true,
+  "positionClass": "toast-bottom-full-width",
+  "preventDuplicates": false ,
+  "showDuration": "300",
+  "hideDuration": "6000",
+  "timeOut": "5000",
+  "extendedTimeOut": "1000",
+  "showEasing": "swing",
+  "hideEasing": "linear",
+  "showMethod": "slideDown",
+  "hideMethod": "fadeOut"
+}
+
+	  toastr.options.onclick = function () {
+                 window.location = "invoice_final.html";
+                };
+				
+
+ 	    toastr.error(' <b style="direction:rtl" >  الرجاء التاكد من اختيار الحجم واللون المطلوب  </b>');
+		
+	
+
+	 
+		
+		
+		
+   </script>
+
+  
+  
+
+

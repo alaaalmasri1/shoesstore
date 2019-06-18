@@ -1,0 +1,11 @@
+<?php
+session_start();
+?>
+<?php
+$_SESSION['username']=$null;
+$_SESSION['password']=$null;
+$_SESSION['firsname']=$null;
+$_SESSION['lastname']=$null;
+$_SESSION['role']=$null;
+header("Location:../../login.php");
+?>

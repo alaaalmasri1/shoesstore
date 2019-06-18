@@ -1,0 +1,86 @@
+/* Block newsletter */
+#columns #newsletter_block_left .form-group {
+  margin-bottom: 0; }
+  #columns #newsletter_block_left .form-group .form-control {
+    background: #ffffff;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    width: 78%;
+    }
+    @media (min-width: 768px) and (max-width: 1199px) {
+      #columns #newsletter_block_left .form-group .form-control {
+        margin-bottom: 10px;
+        margin-right: 0; } }
+#columns #newsletter_block_left .success_inline, #columns #newsletter_block_left .warning_inline {
+  text-align: left;
+  padding: 1px 0 0 0;
+  margin-bottom: -19px; }
+#columns #newsletter_block_left .success_inline {
+  color: #418B19; }
+#columns #newsletter_block_left .warning_inline {
+  color: #f13340; }
+
+/* Block newsletter footer */
+#footer #newsletter_block_left {
+  overflow: hidden;
+  margin-bottom: 0; }
+  @media (max-width: 767px) {
+    #footer #newsletter_block_left {
+      margin-bottom: 15px;
+      width: 100%; } }
+  #footer #newsletter_block_left .block_content {
+	margin-top: 25px;
+	 }
+  #footer #newsletter_block_left .form-group {
+    width: 100%;
+    margin-bottom: 0; }
+    #footer #newsletter_block_left .form-group .form-control {
+        background: #ffffff;
+		border: 0 none;
+		color: #222222;
+		display: inline-block;
+		height: 36px;
+		margin: 0;
+		padding: 4px 10px;
+        width: 100%;
+      }
+      #footer #newsletter_block_left .form-group .form-control:focus {
+        -webkit-box-shadow: black 0px 0px 0px;
+        -moz-box-shadow: black 0px 0px 0px;
+        box-shadow: black 0px 0px 0px; }
+    #footer #newsletter_block_left .form-group .button-small {
+      border: none;
+	  padding: 0;
+      background: none;
+      color: #908f8f;}
+      #footer #newsletter_block_left .form-group .button-small:hover span{
+        background: none repeat scroll 0 0 #ff8787;
+		border-color: #ff8787;
+        transition: 0.5s;
+        -moz-transition: 0.5s;
+        -webkit-transition: 0.5s;
+        }
+      #footer #newsletter_block_left .form-group .button-small:hover {
+         }
+  #footer #newsletter_block_left .warning_inline {
+    display: block;
+    color: #f13340;
+    font-size: 13px;
+    line-height: 26px;
+    clear: both; }
+    @media (min-width: 1200px) {
+      #footer #newsletter_block_left .warning_inline {
+        display: inline-block;
+        position: relative;
+        top: -35px;
+        margin-bottom: -35px;
+        left: 15px;
+        clear: none; } }
+#newsletter_block_left{
+	padding: 0 15px;
+}
+#newsletter_block_left button.btn-default{
+    font-size: 0;
+}
+#newsletter_block_left button.btn-default span{font-size: 0;}
